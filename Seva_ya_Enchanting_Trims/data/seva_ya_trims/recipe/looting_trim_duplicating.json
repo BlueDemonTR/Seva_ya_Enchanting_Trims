@@ -11,12 +11,12 @@
       "minecraft:diamond"
     ],
     "t": [
-      "seva_ya_trims:unbreaking_enchanting_template"
+      "seva_ya_trims:looting_enchanting_template"
     ],
-    "i": "#seva_ya_trims:tier_0_trimming_material"
+    "i": "#seva_ya_trims:tier_1_trimming_material"
   },
   "result": {
-    "id": "seva_ya_trims:unbreaking_enchanting_template",
+    "id": "seva_ya_trims:looting_enchanting_template",
     "count": 2
   }
 }

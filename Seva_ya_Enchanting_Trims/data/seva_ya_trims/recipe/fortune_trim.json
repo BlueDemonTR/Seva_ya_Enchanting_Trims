@@ -1,14 +1,14 @@
 {
   "type": "minecraft:smithing_transform",
   "base": "book",
-  "addition": "minecraft:experience_bottle",
-  "template": "#seva_ya_trims:tier_0_trimming_material",
+  "addition": "#seva_ya_trims:tier_1_trimming_material",
+  "template": "seva_ya_trims:fortune_enchanting_template",
   "result": {
     "id": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:unbreaking": 3
+          "minecraft:fortune": 3
         }
       }
     },
