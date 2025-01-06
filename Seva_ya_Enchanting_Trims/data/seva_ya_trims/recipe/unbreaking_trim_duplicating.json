@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "dtd",
+    "did",
+    "ddd"
+  ],
+  "key": {
+    "d": [
+      "minecraft:diamond"
+    ],
+    "t": [
+      "seva_ya_trims:unbreaking_enchanting_template"
+    ],
+    "i": [
+      "minecraft:experience_bottle"
+    ]
+  },
+  "result": {
+    "id": "seva_ya_trims:unbreaking_enchanting_template",
+    "count": 2
+  }
+}
