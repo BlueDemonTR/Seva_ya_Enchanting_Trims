@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "book",
+  "addition": "#seva_ya_trims:tier_2_trimming_material",
+  "template": "seva_ya_trims:soul_speed_enchanting_template",
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:soul_speed": 3
+        }
+      }
+    },
+    "count": 1
+  }
+}

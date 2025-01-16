@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "book",
+  "addition": "#seva_ya_trims:tier_2_trimming_material",
+  "template": "seva_ya_trims:infinity_enchanting_template",
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:infinity": 1
+        }
+      }
+    },
+    "count": 1
+  }
+}
