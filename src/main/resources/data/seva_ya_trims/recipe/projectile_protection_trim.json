@@ -1,14 +1,14 @@
 {
   "type": "minecraft:smithing_transform",
   "base": "book",
-  "addition": "#seva_ya_trims:tier_2_trimming_material",
-  "template": "seva_ya_trims:protection_enchanting_template",
+  "addition": "#seva_ya_trims:tier_3_trimming_material",
+  "template": "seva_ya_trims:projectile_protection_enchanting_template",
   "result": {
     "id": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:protection": 4
+          "minecraft:projectile_protection": 3
         }
       }
     },
