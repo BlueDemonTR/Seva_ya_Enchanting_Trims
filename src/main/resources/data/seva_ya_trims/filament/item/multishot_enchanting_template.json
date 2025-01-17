@@ -1,0 +1,7 @@
+{
+  "id": "seva_ya_trims:multishot_enchanting_template",
+  "vanillaItem": "minecraft:netherite_upgrade_smithing_template",
+  "properties": {
+    "stackSize": 64
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "book",
+  "addition": "#seva_ya_trims:tier_4_trimming_material",
+  "template": "seva_ya_trims:punch_enchanting_template",
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:punch": 2
+        }
+      }
+    },
+    "count": 1
+  }
+}

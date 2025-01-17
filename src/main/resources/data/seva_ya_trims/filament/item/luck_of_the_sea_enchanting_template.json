@@ -1,0 +1,7 @@
+{
+  "id": "seva_ya_trims:luck_of_the_sea_enchanting_template",
+  "vanillaItem": "minecraft:netherite_upgrade_smithing_template",
+  "properties": {
+    "stackSize": 64
+  }
+}
