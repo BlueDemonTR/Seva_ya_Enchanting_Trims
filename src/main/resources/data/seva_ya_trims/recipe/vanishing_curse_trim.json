@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "book",
+  "addition": "#seva_ya_trims:tier_5_trimming_material",
+  "template": "seva_ya_trims:vanishing_curse_enchanting_template",
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:vanishing_curse": 1
+        }
+      }
+    },
+    "count": 1
+  }
+}

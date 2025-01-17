@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "book",
+  "addition": "#seva_ya_trims:tier_5_trimming_material",
+  "template": "seva_ya_trims:blast_protection_enchanting_template",
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "minecraft:blast_protection": 4
+        }
+      }
+    },
+    "count": 1
+  }
+}
