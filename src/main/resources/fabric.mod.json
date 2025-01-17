@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "seva-ya-enchanting-trims",
+	"id": "seva_ya_trims",
 	"version": "${version}",
 	"name": "Seva ya Enchanting Trims",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,22 +12,14 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/seva-ya-enchanting-trims/icon.png",
+	"icon": "assets/seva_ya_trims/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"poyoraz.seva_ya_trims.SevaYaEnchantingTrims"
-		],
-		"client": [
-			"poyoraz.seva_ya_trims.SevaYaEnchantingTrimsClient"
 		]
 	},
 	"mixins": [
-		"seva-ya-enchanting-trims.mixins.json",
-		{
-			"config": "seva-ya-enchanting-trims.client.mixins.json",
-			"environment": "client"
-		}
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",

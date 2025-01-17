@@ -28,7 +28,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"seva-ya-enchanting-trims" {
+		"seva_ya_enchanting" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}

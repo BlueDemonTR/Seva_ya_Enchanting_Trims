@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class SevaYaEnchantingTrims implements ModInitializer {
-	public static final String MOD_ID = "seva-ya-enchanting-trims";
+	public static final String MOD_ID = "seva_ya_trims";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -22,7 +22,7 @@ public class SevaYaEnchantingTrims implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		FilamentLoader.loadBlocks("seva_ya_trims");
+		FilamentLoader.loadItems("seva_ya_trims");
 		PolymerResourcePackUtils.addModAssets("seva_ya_trims");
 		PolymerResourcePackUtils.markAsRequired();
 		LOGGER.info("Hello Fabric world!");
