@@ -1,14 +1,14 @@
 {
   "type": "minecraft:smithing_transform",
   "base": "book",
-  "addition": "#seva_ya_trims:tier_3_trimming_material",
-  "template": "seva_ya_trims:aqua_affinity_enchanting_template",
+  "addition": "#seva_ya_trims:tier_4_trimming_material",
+  "template": "seva_ya_trims:thorns_enchanting_template",
   "result": {
     "id": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
         "levels": {
-          "minecraft:aqua_affinity": 1
+          "minecraft:thorns": 3
         }
       }
     },
