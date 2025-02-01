@@ -6,21 +6,30 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "seva_ya_trims:bane_of_arthropods_enchanting_template",
+          "name": "seva_ya_trims:bane_of_anthropods_enchanting_template",
           "conditions": [
             {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#minecraft:pickaxes"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:killed_by_player"
+            },
+            {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.2
             }
           ]
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player",
-          "inverse": true
-        }
-      ]
+      "conditions": []
     }
   ],
   "random_sequence": "minecraft:entities/silverfish"

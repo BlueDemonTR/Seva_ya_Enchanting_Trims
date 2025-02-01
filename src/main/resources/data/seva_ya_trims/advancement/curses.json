@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart",
+      "count": 1
+    },
+    "title": {
+      "text": "Curses",
+      "shadow_color": 0
+    },
+    "description": "Fish in the End?",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:root",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#seva_ya_trims:curse_trims"
+          }
+        ]
+      }
+    }
+  }
+}

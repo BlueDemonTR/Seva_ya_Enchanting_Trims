@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_helmet",
+      "count": 1
+    },
+    "title": {
+      "text": "Aqua Affinity",
+      "shadow_color": 0
+    },
+    "description": "Fish under Y=40",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:protection",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:aqua_affinity_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

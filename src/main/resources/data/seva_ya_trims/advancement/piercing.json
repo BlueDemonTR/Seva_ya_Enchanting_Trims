@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow",
+      "count": 1
+    },
+    "title": {
+      "text": "Piercing",
+      "shadow_color": 0
+    },
+    "description": "Loot outposts",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:root",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:piercing_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spawner",
+      "count": 1
+    },
+    "title": {
+      "text": "Looting",
+      "shadow_color": 0
+    },
+    "description": "Mine spawners",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:sharpness",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:looting_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

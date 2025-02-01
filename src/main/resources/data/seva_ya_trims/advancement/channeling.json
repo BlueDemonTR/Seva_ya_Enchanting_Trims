@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:creeper_head",
+      "count": 1
+    },
+    "title": {
+      "text": "Channeling",
+      "shadow_color": 0
+    },
+    "description": "Kill a Charged Creeper",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:impaling",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:channeling_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

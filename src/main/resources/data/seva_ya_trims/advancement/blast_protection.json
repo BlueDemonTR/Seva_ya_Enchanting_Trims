@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tnt",
+      "count": 1
+    },
+    "title": {
+      "text": "Blast Protection",
+      "shadow_color": 0
+    },
+    "description": "Loot Desert Pyramids",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:projectile_protection",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:blast_protection_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

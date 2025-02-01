@@ -184,7 +184,7 @@
                 "tags": [
                   {
                     "id": "seva_ya_trims:prickled",
-                    "expected": false
+                    "expected": true
                   }
                 ]
               }

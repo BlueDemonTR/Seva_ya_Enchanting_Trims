@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block",
+      "count": 1
+    },
+    "title": {
+      "text": "Fire Protection",
+      "shadow_color": 0
+    },
+    "description": "Loot Ruined Portals",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:protection",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:fire_protection_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

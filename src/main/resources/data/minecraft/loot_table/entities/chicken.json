@@ -2,26 +2,6 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "seva_ya_trims:respiration_enchanting_template",
-          "conditions": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "passenger": {
-                  "type": "minecraft:drowned"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "bonus_rolls": 0,
       "entries": [
         {

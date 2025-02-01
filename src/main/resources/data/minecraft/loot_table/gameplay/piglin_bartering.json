@@ -248,6 +248,7 @@
         {
           "type": "minecraft:item",
           "name": "seva_ya_trims:soul_speed_enchanting_template",
+          "weight": 3,
           "conditions": [
             {
               "condition": "minecraft:entity_properties",

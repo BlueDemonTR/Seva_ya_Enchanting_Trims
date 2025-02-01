@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "seva_ya_trims:mending_enchanting_template",
+      "count": 1
+    },
+    "title": "Seva ya Trims",
+    "description": "Go around the world to find these enchantment trims to get access to as many of those books as you want!",
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod",
+      "count": 1
+    },
+    "title": {
+      "text": "Lure",
+      "shadow_color": 0
+    },
+    "description": "Fish in the river biomes",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:root",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:lure_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

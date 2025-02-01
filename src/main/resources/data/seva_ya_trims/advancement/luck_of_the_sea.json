@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:brain_coral",
+      "count": 1
+    },
+    "title": {
+      "text": "Luck of the Sea",
+      "shadow_color": 0
+    },
+    "description": "Fish in the warm ocean biomes",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:lure",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:luck_of_the_sea_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

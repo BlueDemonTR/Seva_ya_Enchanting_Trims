@@ -37,7 +37,7 @@
         {
           "type": "minecraft:item",
           "name": "seva_ya_trims:aqua_affinity_enchanting_template",
-          "weight": 3,
+          "weight": 30,
           "functions": [],
           "conditions": [
             {
@@ -46,6 +46,7 @@
               "predicate": {
                 "distance": {
                   "y": {
+                    "min": -64,
                     "max": 40
                   }
                 }

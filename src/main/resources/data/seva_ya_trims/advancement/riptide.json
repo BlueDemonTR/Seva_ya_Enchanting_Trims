@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wind_charge",
+      "count": 1
+    },
+    "title": {
+      "text": "Riptide",
+      "shadow_color": 0
+    },
+    "description": "Fish above Y=256",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:impaling",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:riptide_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ice",
+      "count": 1
+    },
+    "title": {
+      "text": "Loyalty",
+      "shadow_color": 0
+    },
+    "description": "Fish in the cold ocean biomes",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:impaling",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:loyalty_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

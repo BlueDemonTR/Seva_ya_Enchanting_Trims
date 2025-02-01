@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident",
+      "count": 1
+    },
+    "title": {
+      "text": "Impaling",
+      "shadow_color": 0
+    },
+    "description": "Loot shipwrecks",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:root",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:impaling_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}

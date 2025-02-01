@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom",
+      "count": 1
+    },
+    "title": {
+      "text": "Punch",
+      "shadow_color": 0
+    },
+    "description": "Kill a Stray by dooming it to fall with a bow",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:power",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:punch_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}
