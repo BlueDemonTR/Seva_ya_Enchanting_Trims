@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cobweb",
+      "count": 1
+    },
+    "title": {
+      "text": "Silk Touch",
+      "shadow_color": 0
+    },
+    "description": "Kill a sheep while it's inside of a cobweb",
+    "show_toast": true
+  },
+  "parent": "seva_ya_trims:efficiency",
+  "criteria": {
+    "has_trim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "seva_ya_trims:silk_touch_enchanting_template"
+          }
+        ]
+      }
+    }
+  }
+}
