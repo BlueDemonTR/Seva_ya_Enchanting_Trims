@@ -7,7 +7,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "seva_ya_trims:channeling_enchanting_template"
+          "name": "seva_ya_trims:channeling_enchanting_template",
+          "conditions": []
         }
       ],
       "functions": [],
@@ -15,7 +16,9 @@
         {
           "condition": "minecraft:entity_properties",
           "entity": "this",
-          "predicate": {}
+          "predicate": {
+            "nbt": "{powered:1b}"
+          }
         },
         {
           "condition": "minecraft:random_chance",
