@@ -44,10 +44,12 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "distance": {
-                  "y": {
-                    "min": -64,
-                    "max": 40
+                "location": {
+                  "position": {
+                    "y": {
+                      "min": -64,
+                      "max": 40
+                    } 
                   }
                 }
               }

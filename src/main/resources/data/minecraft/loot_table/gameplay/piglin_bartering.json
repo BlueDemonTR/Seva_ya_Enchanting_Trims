@@ -254,9 +254,11 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "distance": {
-                  "y": {
-                    "max": 128
+                "location": {
+                  "position": {
+                    "y": {
+                      "max": 128
+                    }
                   }
                 }
               }
