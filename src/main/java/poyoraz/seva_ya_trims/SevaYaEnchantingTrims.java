@@ -25,7 +25,7 @@ public class SevaYaEnchantingTrims implements ModInitializer {
 		FilamentLoader.loadItems("seva_ya_trims");
 		PolymerResourcePackUtils.addModAssets("seva_ya_trims");
 		PolymerResourcePackUtils.markAsRequired();
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Seva ya Trims initialized!");
 
 	}
 }
