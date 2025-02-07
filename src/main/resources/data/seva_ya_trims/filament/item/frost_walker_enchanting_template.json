@@ -1,5 +1,10 @@
 {
   "id": "seva_ya_trims:frost_walker_enchanting_template",
+  "itemResource":  {
+    "models": {
+      "default": "seva_ya_trims:custom/misc/tier_2_trim"
+    }
+  },
   "vanillaItem": "minecraft:netherite_upgrade_smithing_template",
   "properties": {
     "stackSize": 64
