@@ -3,9 +3,9 @@
 	"id": "seva_ya_trims",
 	"version": "${version}",
 	"name": "Seva ya Enchanting Trims",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod that adds an alternative way to get enchantments reliably and repeatably.",
 	"authors": [
-		"Me!"
+		"Poyoraz"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
