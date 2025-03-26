@@ -8,6 +8,6 @@
   "vanillaItem": "minecraft:netherite_upgrade_smithing_template",
   "properties": {
     "stackSize": 64,
-    "lore": ["Tier 5"]
+    "lore": ["Tier 3"]
   }
 }
